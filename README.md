@@ -9,7 +9,7 @@
 ## Description
 Percy is a console AI based chatbot that uses python, neural networks and deep learning, Tensorflow, keras, openCV, Speechrecognition and Natural language toolkit. The user can communicate with Percy using text, speech or sign language. In addition to features like chatting, telling the time,jokes and funfacts, showing the news and browsing the web, Percy can recognize the user's emotions based on the user's facial expressions or speech.  
 ## Links
-* GitHub repo link:[Link To Repository](https://github.com/sarah-nisar/CoC_PeRKS/blob/master/data-speech-emotion.zip)
+* GitHub repo link: [Link To Repository](https://github.com/sarah-nisar/CoC_PeRKS)
  
 ## Technology Stack
 * Python
