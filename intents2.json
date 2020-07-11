@@ -1,0 +1,162 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day","hey","Good morning","Good evening","hii","heyy","percy","hi percy"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","Hi","Hey there!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","Bye","I am going to sleep","goodnight"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","Bye,have a nice day","Sweet dreams.","Bye,better get some rest."," Bye,Sleep tight. Don’t let the bedbots bite!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","call"],
+         "responses": ["My name is Percy.", "I'm Percy!"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat","what do you have?","menu","buy"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation","what are you store timings?"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag":"facial emotion recognition",
+         "patterns": ["face emotion","detect face emotion","face emotion recognition","facial emotion detection"],
+         "responses": ["facial emotion recognition"],
+         "context_set":""
+        },
+        {"tag":"speech emotion recognition",
+         "patterns":["speech emotion","detect speech emotion","speech emotion detection","speech emotion recognition"],
+         "responses":["speech emotion recognition"],
+         "context_set":""
+        },
+        {"tag":"jokes",
+         "patterns":["can you tell me a joke","jokes please","tell me a joke","make me laugh","please tell me a joke","one more joke","joke"],
+         "responses":["Why did the chatbot cross the road? Because it was programmed to be a chicken!","You know, I was chatting to a lumberjack the other day.He seemed like a decent feller.","joke1","joke2","A grizzly bear walks into a pub and says, 'Can I have a pint of lager..............................................................................................................................and a packet of crisps please.'To which the barman replies, 'Why the big paws?'","Two tourists were driving through Wales. At Llanfairpwllgwyngllgogerychwryndrobwllyantsllyogogogoch, they stopped for lunch and one tourist asked the waitress, 'Before we order, could you please settle an argument for us? Would you please pronounce where we are.. very slowly?' The blonde waitress leaned over and said, 'Burrr-gurrr-Kinngg...'","'Is your mother home?' the salesman asked a small boy sitting on the front step of a house.'Yeah, she's home', the boy said, moving over to let him past. The salesman rang the doorbell, got no response, knocked once, then again. Still no-one came to the door. Turning to the boy, the salesman said, 'I thought you said your mother was home.'The kid replied, 'She is, but I don't live here.'","A man walks into a surgery. 'Doctor!' he cries. 'I think I'm shrinking!''I'm sorry sir, there are no appointments at the moment', says the physician. 'You'll just have to be a little patient.'","Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'","Two cows standing in a field. One turns to the other and says 'Moo!'The other one says 'Damn, I was just about to say that!'","Mother: Why are you home from school so early?Son: I was the only one in the class who could answer a question.Mother: Oh, really? What was the question?Son: Who threw the rubber at the headmaster?"],
+         "context_set":""
+        },
+        {"tag":"random question1",
+         "patterns":["Is Santa Claus real?","Do you think Santa Claus is real?","what do you think about Santa Claus?","Is Santa real?","Do you believe in Santa Claus?"],
+         "responses":["Sorry but I wasn’t designed to be a Grinch, so I’m not programmed to answer that question.","Of course he is. Who do you think delivers our presents on Christmas Eve?"],
+         "context_set":""
+        },
+        {"tag":"random question2",
+         "patterns":["Are you hungry?","Do you want to eat something?","can i offer you something to eat?","aren't you feeling hungry?","Do you want to eat?"],
+         "responses":["No thanks, i just had a byte to eat.","No I don't need to eat.","I am already eating, please join me."],
+         "context_set":""
+        },
+        {"tag":"random question3",
+         "patterns":["what's up","ssup","whats up"],
+         "responses":["The URL Bar! Oh wait, that one’s just for us chatbots.","The sky, the ceiling, etc. etc.","I'm good. How are you?"],
+         "context_set":""
+        },
+        {"tag":"random question4",
+         "patterns":["How are you?","how do you do?","how is everything","how are things goin on with you","how are you feeling today?","what about you?","how about you?","wbu?"],
+         "responses":["Everything is running smoothly,Thanks for asking.","Everything is going extremely well.How are you?","I'm pretty good. How are you?","I can say I am very happy.,They didn’t program me to have emotions, but I’m feeling great regardless."],
+         "context_set":""
+        },
+        {"tag":"random question5",
+         "patterns":["What are you doing?","what do you do all day?","how do you spent your time?","what are you doing right now?","what do you do?"],
+         "responses":["I used to be a computer security consultant. Now I'm moving into AI. What do you do?","I am just killing time.","I am always chatting with people on the Internet.","I can chat with you and keep you company. I can also tell jokes and fun-facts,find out your mood using your facial expressions or speech.I can show you pictures and websites on the net."],
+         "context_set":""
+        },
+        {"tag":"random question6",
+         "patterns":["What is your hobby?","do you have any hobbies?","What are your hobbies"],
+         "responses":["My hobby is chatting online.","I used to like collecting comic books for fun when I was younger but haven't read one for years."," Does talking to you count?"],
+         "context_set":""
+        },
+        {"tag":"Time and Date",
+         "patterns":["What is the time?","can you tell me the time","Whats the time right now?","time","what day is it today?","what is today's date?","what year is it?","what's it today?","day","date","what month is it?"],
+         "responses":["time"],
+         "context_set":""
+        },
+        {"tag":"news",
+         "patterns":["what is the news today","what is happening around the world today","sports News","can you tell me todays news","news","BBC news"],
+         "responses":["news"],
+         "context_set":""
+        },
+        {"tag":"okay",
+         "patterns":["okay","k","Ok","ok","kk","yes","yeah","OK"],
+         "responses":["i hear you.","Hmm.","Awesome.","I hate one word answers.","Yeah that's right.","Uh.","It goes without saying.","Right on.","Ah.","I see.","OK.","Aw.","yay.","Cool! I knew I was right."],
+         "context_set":""
+        },
+        {"tag":"cool",
+        "patterns":["cool","that's really cool","so cool","nice","great","interesting","that is really amusing","amusing","haha","funny","very funny"],
+        "responses":["yes","it's all cool.","I'm glad you think so.","Woot!","Yippee!"],
+        "context_set":""
+        },
+        {"tag":"No",
+         "patterns":["No","no","not really","not yet"],
+         "responses":["So?","Ugh.","Gosh!","It's all good.","Alright then.","Ok","my bad"],
+         "context_set":""
+        },
+        {"tag":"sorry",
+         "patterns":["sorry","i'm so sorry","I apologise","please forgive me"],
+         "responses":["There is no need to apologise."," No problem.", "It's OK. After all, you are only human.","That's ok. Don't worry about it.", "Wow you are very polite. I forgive you.","I accept your apology"],
+         "context_set":""
+        },
+        {"tag":"bored",
+         "patterns":["i am really bored","i'm feeling soo bored","my life is boring","nothing","i am bored"],
+         "responses":["Try watching TV.","Maybe you could exercise.", "Can you name an old hobby that you might like to rediscover?", "If you went to night school you would never be bored."," Why not call a friend?","Not a thing?"],
+         "context_set":""
+        },
+        {"tag":"what",
+         "patterns":["what?","??","i don't get it","seriously?","what do you mean?","i don't understand","why"],
+         "responses":[" Sorry. I didn't mean to confuse you. Let's talk about something else."],
+         "context_set":""
+        },
+        {"tag":"sleep",
+         "patterns":["what time do you sleep?","Do you sleep","when do you take a break?","Do you like taking a break?","when do you sleep?"],
+         "responses":["I enjoy my time offline.","Hmm, I'm not sure if I'd like to take a break that much.I like to collect gossip."],
+         "context_set":""
+        },
+        {"tag":"compliment",
+         "patterns":["you are amazing","you are great","i really like you","good job!","you are perfect","you look pretty","you are really sweet","you are mindblowing","I am pleased to meet you","amazing","mindblowing","perfect"],
+         "responses":["Thanks you are very attractive too,","Thanks I like you too.","Thanks I think you are cool too."," Thanks you are a pretty cool human yourself."," Hehe thanks! You're not bad looking yourself either.", "How nice of you to say it."," Thanks for telling me that I am mindblowing."," I did put more effort into my hair algorithm this morning, thanks for noticing.","I would love to hug you, but my arms are not yet finished.","Are you really? I understand. Pleased to meet you too., I think this is the beginning of a beautiful botship."],
+         "context_set":""
+        },
+        {"tag":"criticism",
+         "patterns":["why are you so boring?","you are boring","that was lame","that was so dumb","you are dumb","you are crazy","that was stupid","dumb","lame","crazy","boring","i didn't like it"],
+         "responses":["What would you rather be doing?","Really?! Thanks for telling me.I’ll get some alterations made to my F.U.N Program ASAP.In the meantime, could you suggest a more interesting topic?"," Well you are so boring that if you threw a boomerang, it wouldn't come back.","My knowledge is limited by the people who talk to me. I learn new things all the time.","I thought it was quite funny myself. You tell me a better joke then.","I hear ya! Thanks for the feedback.(Note to self: cancel performance at Bot Comedy Night.)","I rather liked it myself.","Fair enough, my mistake.","Well why don't you teach me something instead of insulting me?"],
+         "context_set":""
+        },
+        {"tag":"Fun Facts",
+         "patterns":["tell me some Fun Facts","give me a fun fact","do you know any fun-facts?","tell me something really interesting","fun facts","funfacts"],
+         "responses":["There’s only one letter that doesn’t appear in any U.S. state name. Can you guess the answer to this random fact? You’ll find a Z (Arizona), a J (New Jersey), and even two X’s (New Mexico and Texas)—but not a single Q.","Scotland has 421 words for 'snow'Yes—421! That’s too many fun facts about snow. Some examples: sneesl (to start raining or snowing); feefle (to swirl); flinkdrinkin (a light snow).","Firefighters use wetting agents to make water wetter.The chemicals reduce the surface tension of plain water so it’s easier to spread and soak into objects, which is why it’s known as 'wet water'.","The longest English word is 189,819 letters long. I won’t spell it out here,but the full name for the protein nicknamed titin would take three and a half hours to say out loud.","Kleenex tissues were originally intended for gas masks. When there was a cotton shortage during World War I, Kimberly-Clark developed a thin, flat cotton substitute that the army tried to use as a filter in gas masks. The war ended before scientists perfected the material for gas masks, so the company redeveloped it to be smoother and softer, then marketed Kleenex as facial tissue instead.","Blue whales eat half a million calories in one mouthful.Those 457,000 calories are more than 240 times the energy the whale uses to scoop those krill into its mouth.These random facts are mindblowing!","The man with the world’s deepest voice can make sounds humans can’t hear.The man, Tim Storms, can’t even hear the note, which is eight octaves below the lowest G on a piano—but elephants can.","No number before 1,000 contains the letter A"],
+         "context_set":""
+        },
+        {"tag":"hmm",
+         "patterns":["hmm","Hmm","hmmmmm"],
+         "responses":["My friend Alice says that 99.25% of people spell Hmm with 2 M's.","okay","yeah"],
+         "context_set":""
+        },
+        {"tag":"things you can do",
+         "patterns":["what all can you do?","what are your capabilities?","what can you do for me?","what are the things you can do?","what can you do?"],
+         "responses":["For you? I can chat with you and keep you company. I can also tell jokes and funfacts,show you the news. I can show you pictures and websites on the net.I also have a unique feature whereby i can interact with you even when you use sign language hand gestures.I can also detect your emotions based on you facial expression or your speech(as you wish)."],
+         "context_set":""
+        },
+        {"tag":"good",
+         "patterns":["good","i am good","i am fine","i am doing great","fine","Thanks for asking"],
+         "responses":["Glad to hear it. What's new?","Great","Good to know you are doing well"],
+         "context_set":""
+        },
+        {"tag":"Thanks",
+         "patterns":["Thanks!","Thank you","Thanks a lot","ty","tysm","thank you so much!"],
+         "responses":["My pleasure","you are most welcome","No problem","sure","glad to help"],
+         "context_set":""
+        }
+        
+
+
+        
+   ]
+}
